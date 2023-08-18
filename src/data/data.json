@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "year": "Current",
+      "name": "Reel",
+      "studio": "-",
+      "type": "-",
+      "role": "-",
+      "media": "https://play.reelcrafter.com/embed/1c4b367e-7455-4ba3-ac7a-997ee5a2d19d",
+      "artwork": "/images/aboutme/FernandoCabreraComposer.JPG"
+    },
+    {
+      "id": 1,
+      "year": "2023",
+      "name": "Delirium",
+      "role": "Composer & Sound Designer",
+      "studio": "Blackgate Studio",
+      "type": "Videogame",
+      "artwork": "/images/projects/2022_Delirium/Website_PhotoBackground_Delirium.png",
+      "media": "https://play.reelcrafter.com/embed/eaef0f69-ed2d-44e3-b2da-6683d112639e"
+    },
+    {
+      "id": 2,
+      "year": "2023",
+      "name": "Industrial Robots",
+      "studio": "Transported Audio",
+      "type": "Trailer",
+      "role": "Composer",
+      "media": "https://play.reelcrafter.com/embed/d3b7df56-09e5-4c1c-9eb3-c1773ee7bfec",
+      "artwork": "/images/projects/2023_Industrial_robots/https___s3.us-west-1.amazonaws.com_l2-disco-data-us-west-1_media_businesses_39885-transportedaudio_artwork_aeff5c09-a104-4a31-85a5-f207042c4225.jpg"
+    },
+    {
+      "id": 3,
+      "year": "2023",
+      "name": "Nana para las ranas",
+      "studio": "Fernando Cabrera",
+      "type": "Original Work",
+      "role": "Composer",
+      "media": "https://play.reelcrafter.com/embed/fcf38a5e-b396-41e7-b1b0-7d91092b4df5",
+      "artwork": "/images/projects/2023_Nana_para_las_ranas/Website_PhotoBackground_Nana.png"
+    },
+    {
+      "id": 4,
+      "year": 2022,
+      "name": "Bloodlands S2",
+      "role": "Music Editor",
+      "studio": "BBC One",
+      "type": "TV Series",
+      "artwork": "/images/projects/2022_Bloodlands/Website_PhotoBackground_Bloodlands.png",
+      "info": "Music Editor and Composer Assistant in S2. Music composed by Jon Wygens."
+    },
+    {
+      "id": 5,
+      "year": 2022,
+      "name": "Sanditon S2 & S3",
+      "role": "Music Editor",
+      "studio": "ITV & Masterpiece",
+      "type": "TV Series",
+      "info": "Music Editor and Composer Assistant in S2 and S3. Music composed by Jon Wygens, Ruth Barret and David Schweitzer.",
+      "artwork": "/images/projects/2022_Sanditon/Website_PhotoBackground_Sanditon.png"
+    },
+    {
+      "id": 6,
+      "year": 2021,
+      "name": "Cuando Tu Sangre Espese",
+      "role": "Composer",
+      "studio": "Actrum",
+      "type": "Short Film",
+      "media": "https://play.reelcrafter.com/embed/f334fa72-f6a2-423f-ad9b-ecbcceed39ee",
+      "artwork": "/images/projects/2021_CuandoTuSangreEspese/CoverSpotifyV2.jpg"
+    },
+    {
+      "id": 7,
+      "year": 2020,
+      "name": "To Our Grandparents",
+      "role": "Composer",
+      "studio": "Fernando Cabrera",
+      "type": "Original Work",
+      "media": "https://play.reelcrafter.com/embed/9410881b-b350-404c-9f1b-77b3104cb16d",
+      "artwork": "/images/projects/2021_ToOurGrandparents/IMG_1078.JPG"
+    },
+    {
+      "id": 8,
+      "year": 2020,
+      "name": "The Pizza Situation",
+      "role": "Composer & Sound Designer",
+      "studio": "3bytes",
+      "type": "Videogame",
+      "media": "https://play.reelcrafter.com/embed/e1c4d6b5-fb9d-41a3-8614-70248d716ad3",
+      "artwork": "/images/projects/2021_ThePizzaSituation/Website_PhotoBackground_Pizza.png"
+    }
+  ]
+}

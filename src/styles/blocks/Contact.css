@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90.5vh;
+  margin-top: 93px;
+  width: 50%;
+  background: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../../../images/aboutme/IMG_2226.jpg);
+  background-size: auto 130%;
+  background-position: left;
+  color: whitesmoke;
+  border-left: 2px dashed var(--white);
+  }
+  .contact > h2, a{
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: lowercase;
+  }
+
+  @media screen and (max-width: 900px) {
+   .contact{
+    width: 100%;
+   }
+  }

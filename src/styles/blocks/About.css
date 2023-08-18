@@ -1,0 +1,128 @@
+.todo {
+  display: flex;
+  width: 100%;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  padding-top: 93px;
+  width: 50%;
+}
+.about > .aboutBloqOne {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(/images/aboutme/IMG_2226-volteada.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 25vh;
+  text-align: end;
+  border-top: 2px solid black;
+  width: 100%;
+}
+.aboutInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: start;
+  border-top: 2px solid black;
+  padding: 30px;
+}
+.aboutInfo > .text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.aboutInfo > p {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.aboutInfo > .text > h3 {
+  font-size: x-large;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media screen and (max-width: 900px) {
+  .about > .aboutBloqOne {
+    width: 100vw;
+    border-right: 0ch;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .todo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  .about > .aboutBloqTwo {
+    width: 100%;
+    height: auto;
+  }
+}
+.aboutInfo > p {
+  font-size: medium;
+  margin-bottom: 8px;
+}
+.aboutInfo > p > strong {
+  font-size: medium;
+  font-weight: 700;
+}
+
+#spin {
+  color: whitesmoke;
+  font-size: var(--font-size-lg);
+  padding-right: 15px;
+}
+
+#spin:after {
+  content: '';
+  animation: spin 15s linear infinite;
+}
+@keyframes spin {
+  0% {
+    content: 'Hola';
+  }
+  10% {
+    content: 'Hello';
+  }
+  20% {
+    content: '你好';
+  }
+  30% {
+    content: 'Hallo';
+  }
+  40% {
+    content: 'Salut';
+  }
+  50% {
+    content: 'مرحبا';
+  }
+  60% {
+    content: 'Привет';
+  }
+  70% {
+    content: 'Olá';
+  }
+  80% {
+    content: '안녕';
+  }
+  90% {
+    content: 'こんにちは';
+  }
+  100% {
+    content: 'Hola';
+  }
+}

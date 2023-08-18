@@ -1,0 +1,29 @@
+/* UTILS */
+@import url(./styles/utils/reset.css);
+@import url(./styles/utils/fonts.css);
+@import url(./styles/utils/palette.css);
+
+/* BLOCKS */
+@import url(./styles/blocks/Projects.css);
+@import url(./styles/blocks/ProjectCard.css);
+@import url(./styles/blocks/Timeline.css);
+@import url(./styles/blocks/Header.css);
+@import url(./styles/blocks/Hero.css);
+@import url(./styles/blocks/Contact.css);
+@import url(./styles/blocks/About.css);
+@import url(./styles/blocks/TimelineElement.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+/* GLOBAL */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Fontspring', sans-serif;
+  color: var(--black);
+}
+
+main {
+  padding-top: 9vh;
+}

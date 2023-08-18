@@ -1,0 +1,145 @@
+.navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  padding: 0.5rem 10px 0.5rem 0;
+  color: var(--black);
+  justify-content: space-between;
+  border-bottom: 2px solid var(--black);
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+
+.brand-name {
+  display: flex;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-family: "Fontspring";
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.navigation > a > img {
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation > a > img:hover {
+  filter: invert(50%);
+}
+
+.social {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.social > a > img {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social > a > img:hover {
+  filter: invert(50%);
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: var(--blue);
+}
+
+@media screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    background: transparent;
+    position: absolute;
+    right: 20px;
+  }
+
+  .social{
+    padding-right: 14%;
+  }
+
+  .navigation-menu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: none;
+  }
+
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigation-menu li a {
+    color: var(--black);
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .navigation-menu li:hover {
+    background-color: whitesmoke;
+  }
+
+  .navigation-menu.expanded ul {
+    margin-top: 4vh;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5rem 0;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    gap: 3rem;
+    
+  }
+  
+}
+
+a {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .social{
+    padding-right: 14%;
+  }
+}

@@ -1,0 +1,17 @@
+SIN FONDO (WEB) /IMPRESIÓN / PRENSA
+
+- Usar siempre los logotipos positivos sobre fondos claros
+
+- Usar siempre los logotipos negativos sobre fondos oscuros
+
+- El gravatar está pensado para miniatura 80x80px de la tab de la web (no como logotipo de la cabecera de la web)
+
+
+CON FONDO (RRSS)
+
+- Los logotipos redondos están pensados para RRSS como por ejemplo IG (AUNQUE SE RECOMIENDA USAR EL CUADRADO YA QUE INSTAGRAM RECORTA DIRECTAMENTE EL FORMATO)
+- Los logotipos cuadrados están pensados para RRSS con formato avatar cuadrado
+
+
+Logotipo altura X: se utiliza para que no haya una mala utilización del logo (deformaciones)
+

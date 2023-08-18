@@ -1,0 +1,75 @@
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.media-player{
+  height: 620px;
+}
+@media screen and (max-width: 900px) {
+  .project {
+    width: 100%;
+  }
+  .media-player{
+    height: 400px;
+  }
+}
+
+.media {
+  width: 100%;
+  min-height: 400px;
+  height: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.contentMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project > .media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.project > .media img {
+  width: 100px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .project {
+    width: 100%;
+  }
+  .project > .media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .embed-container {
+    width: 350px;
+    display: flex;
+  }
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  padding: 20px;
+}
+
+.project p {
+  background-color: #151518;
+  color: white;
+  font-size: 0.7rem;
+  padding: 14px;
+  margin: 40px 40px;
+  text-align: justify;
+}

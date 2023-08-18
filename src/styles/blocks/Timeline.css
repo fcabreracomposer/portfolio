@@ -1,0 +1,116 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px dashed var(--black);
+  width: 50%;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline {
+    width: 100%;
+    border-right: 0ch;
+    border-bottom: 2px dashed var(--black);
+  }
+}
+
+.timeline > .content > .titles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.timeline > .content {
+  padding-right: 30px;
+}
+
+.timeline > .content > .titles > .projectLi {
+  width: 30%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.timeline > .content > .titles > .typeLi {
+  width: 15%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.timeline > .content > .titles > .studioLi {
+  width: 20%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.timeline > .content > .titles > .yearLi {
+  width: 10%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.timeline > .content > .titles > .roleLi {
+  width: 20%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.timeline > .content > .items {
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.timeline > .content > .items:focus {
+  background-color: black;
+  color: whitesmoke;
+  transition: all 0.5 ease-in-out;
+}
+
+.timeline > .content > .items:hover {
+  background-color: rgba(128, 128, 128, 0.137);
+}
+
+.timeline > .content > .items:focus:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .timeline .typeLi {
+    display: none;
+  }
+
+  .titles {
+    padding: 0!important;
+    margin: 0!important;
+    justify-content: space-around!important;
+    width: 100vw;
+  }
+
+  .titles > li {
+    margin: 0!important;
+    padding:0!important;
+    width: fit-content;
+  }
+
+  .timeline > .content > .titles > .yearLi {
+    width: 10%;
+    margin-right: 10px;
+    padding-left: 0px!important;
+  }
+
+  .timeline > .content > .titles > .roleLi {
+    width: 23%;
+    margin-right: 10px;
+    padding-left: 0px!important;
+  }
+
+
+  .items {
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    width: 100vw;
+    font-size: 13px !important;
+  }
+}

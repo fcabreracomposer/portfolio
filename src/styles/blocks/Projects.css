@@ -1,0 +1,14 @@
+.projects {
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2rem;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 900px){
+  .projects{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: max-content;
+  }}
